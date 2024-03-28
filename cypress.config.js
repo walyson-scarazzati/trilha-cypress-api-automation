@@ -1,10 +1,10 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: 'jv3vn6',
+  projectId: 'pnvmi',
   e2e: {
     baseUrl:'https://restful-booker.herokuapp.com',
-    requestTimeout: 6000,
+    requestTimeout: 60l00,
     responseTimeout: 6000,
     setupNodeEvents(on, config) {
       // implement node event listeners here
